@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">VideoRecorderPro</string>
+    <string name="forward_page">进入录制页</string>
+    <string name="ok">确定</string>
+
+
+    <string name="preview_original">自然</string>
+    <string name="preview_contrast">亮丽</string>
+    <string name="preview_vignette">晕影</string>
+    <string name="preview_thin">瘦脸</string>
+    <string name="preview_whitening">美白</string>
+    <string name="preview_sepia">复古</string>
+    <string name="preview_grayscale">黑白</string>
+    <string name="preview_none">无</string>
+    <string name="preview_tone_curve_blue_crystal">小清新</string>
+    <string name="preview_tone_curve_lake_water">幻彩</string>
+    <string name="preview_elegant">优雅</string>
+    <string name="preview_tone_japanese">日系</string>
+    <string name="preview_cool">清凉</string>
+
+    <string name="audio_rock">摇滚</string>
+    <string name="audio_rnb">R&amp;B</string>
+    <string name="audio_popular">流行</string>
+    <string name="audio_dance">舞曲</string>
+    <string name="audio_new_centrury">新世纪</string>
+    <string name="audio_phonograph">留声机</string>
+    <string name="audio_original">原声</string>
+    <string name="audio_double_u">迷幻</string>
+    <string name="audio_tune">电音</string>
+
+    <string name="start_live">开始录制</string>
+    <string name="connect_rtmp_server">正在连接RTMP服务器</string>
+    <string name="publish_timeout_tip">由于网络原因, 推流超时, 请稍后再试...</string>
+    <string name="audio_volume">人声音量</string>
+    <string name="accompany_volume">伴奏音量</string>
+    <string name="accompany_pitch_shift">变调</string>
+    <string name="cancel">取消</string>
+
+    <!-- 合并提示 -->
+    <string name="combine_video_message">正在合并视频...</string>
+    <string name="combine_video_success_message">成功合并视频...</string>
+    <!-- 相机类型 -->
+    <string-array name="gallery_indicator">
+        <item>表情包</item>
+        <item>拍照</item>
+        <item>视频</item>
+    </string-array>
+
+    <!-- 滤镜页面按钮 -->
+    <string name="btn_preview_beauty">美颜</string>
+    <string name="btn_preview_makeup">美妆</string>
+    <string name="btn_preview_filter">滤镜</string>
+
+    <!-- 美颜 -->
+    <string-array name="preview_beauty">
+        <item>磨皮</item>
+        <item>肤色</item>
+        <item>瘦脸</item>
+        <item>削脸</item>
+        <item>小脸</item>
+        <item>下巴</item>
+        <item>法令纹</item>
+        <item>额头</item>
+        <item>大眼</item>
+        <item>眼距</item>
+        <item>眼角</item>
+        <item>卧蚕</item>
+        <item>眼袋</item>
+        <item>亮眼</item>
+        <item>瘦鼻</item>
+        <item>鼻翼</item>
+        <item>长鼻</item>
+        <item>嘴型</item>
+        <item>美牙</item>
+    </string-array>
+
+    <!-- 美妆 -->
+    <string-array name="preview_makeup">
+        <item>口红</item>
+        <item>腮红</item>
+        <item>阴影</item>
+        <item>眉毛</item>
+        <item>眼影</item>
+        <item>眼线</item>
+        <item>睫毛</item>
+        <item>双眼皮</item>
+        <item>瞳孔</item>
+    </string-array>
+
+    <string name="makeup_clear">一键清除</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mlingdu.demo">
+
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--聚焦目标：完成一个展示的demo，UI和逻辑分开,UI参考Cain，Native层重构代码-->
+    <application>
+        <activity android:name="com.mlingdu.demo.activity.MainActivity">
+        </activity>
+        <activity android:name="com.mlingdu.demo.activity.SongSelectionActivity">
+        </activity>
+        <activity android:name="com.mlingdu.demo.activity.VideoRecorderActivity"/>
+        <activity android:name=".activity.MagicCameraActivity"
+            android:theme="@style/NoActionBarTheme"/>
+    </application>
+</manifest>
